@@ -1,6 +1,6 @@
 Clonare il repository remoto:
 
-git clone https://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@github.com/ITS-VERSIONCONTROL/redazione.git
+git clone https://<access token>@github.com/ITS-VERSIONCONTROL/redazione.git
 cd redazione
 git config --local user.name XXXXX
 git config --local user.email XXXX@YYY.ZZZ
