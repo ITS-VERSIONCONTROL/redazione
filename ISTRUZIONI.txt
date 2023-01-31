@@ -1,0 +1,33 @@
+Clonare il repository remoto:
+
+git clone https://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@github.com/ITS-VERSIONCONTROL/redazione.git
+cd redazione
+git config --local user.name XXXXX
+git config --local user.email XXXX@YYY.ZZZ
+
+
+Siamo una casa editrice che pubblica un giornale periodico, diviso in 3 gruppi di lavoro:
+- La redazione, dove gli autori creano nuovi contenuti
+- L'ufficio correzione bozze, dove gli articoli vengono verificati e corretti
+- La stamperia, dove i nuovi articoli corretti vengono messi in stampa
+
+
+Il flusso di lavoro (GitFlow) aziendale è strutturato come segue:
+
+REDAZIONE
+- ogni autore crea del nuovo contenuto partendo staccando dal branch 'main' un nuovo branch di lavoro 'feature/<numero univoco>-titolo-articolo
+- sul feature branch è possibile fare un numero arbitrario di commit e addirittura staccare dei nuovi branch locali per effettuare delle prove
+- quando un articolo è completo, il feature branch viene riportato su 'main' con un merge
+
+* NOTARE BENE: in qualunque momento sul branch main ci sono solo articoli completati
+
+
+CORREZIONE BOZZE
+- ogni settimana il correttore delle bozze stacca un branch partendo da 'main' contentente tutti i nuovi articoli completati chiamato 'correzione/<numero prossima uscita>'
+- sul nuovo branch 'correzione/<numero prossima uscita>' vengono effettuate le correzioni delle bozze, e quando tutto è pronto, il branch di lavoro viene riportato sul branch 'stampa'
+
+STAMPA
+- in ogni momento nel branch 'stampa' sono riportati tutti gli articoli completati e corretti
+- ogni settimana, il direttore del reparto stampa manda in stampa una nuova pubblicazione, creando il branch 'uscita/<numero uscita>' partendo dal branch 'stampa'
+
+
