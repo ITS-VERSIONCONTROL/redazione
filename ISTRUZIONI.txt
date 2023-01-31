@@ -25,6 +25,7 @@ REDAZIONE
 CORREZIONE BOZZE
 - ogni settimana il correttore delle bozze stacca un branch partendo da 'main' contentente tutti i nuovi articoli completati chiamato 'correzione/<numero prossima uscita>'
 - sul nuovo branch 'correzione/<numero prossima uscita>' vengono effettuate le correzioni delle bozze, e quando tutto è pronto, il branch di lavoro viene riportato sul branch 'stampa'
+- le correzioni vengono anche riportate sul branch 'main'
 
 STAMPA
 - in ogni momento nel branch 'stampa' sono riportati tutti gli articoli completati e corretti
