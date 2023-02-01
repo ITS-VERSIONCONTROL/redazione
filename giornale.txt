@@ -1,12 +1,36 @@
-NUMERO 1
+NUMERO 001
 ========
 
 
 Presentazione
 =============
+Benvenuto!
+Parleremo di animali, tanto per cambiare.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Regno animale
+Gli animali sono un regno del dominio degli eucarioti,
+comprendono in totale più di 1 800 000 specie di organismi
+classificati, presenti sulla Terra dal periodo ediacarano.
+
+Vertebrati
+I vertebrati sono animali caratterizzati da una struttura
+scheletrica ossea e/o cartilaginea.
+
+Tetrapodi
+I tetrapodi sono la superclasse di vertebrati
+che presentano quattro arti, in alcuni casi scomparsi
+durante l'evoluzione.
+
+Amphibia
+Gli anfibi sono stati i primi vertebrati a colonizzare
+l'ambiente terrestre e come tali hanno avuto in passato
+una notevole espansione e diversificazione.
+
+Anuri
+Gli anuri sono un ordine di anfibi cui appartengono oltre
+7450 specie, comunemente definite rane, rospi e raganelle.
+
+Bufonidae
+Il genere "Bufo" racchiude I_Rospi. Fonte: Bufo bufo
+
+link all'immagine di sotto: Bufo bufo
