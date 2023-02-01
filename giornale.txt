@@ -1,6 +1,6 @@
 NUMERO 1
 ========
-ciao a tutti sono Leda ciao ciao ciao 
+ 
 
 Presentazione
 =============
